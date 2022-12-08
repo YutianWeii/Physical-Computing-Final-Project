@@ -44,8 +44,8 @@ However, the idea was abandoned in view of the difficulty of distinguishing whet
 
 #### Idea 3
 During the discussion, we thought that the relationship between two people was something to think about and would also bring more variation to the piece. It occurred to us that the breath and temperature of two people could be shared to feed a plant, but considering that the change in the plant might not be obvious, we gave up this idea.  
-**Input: CO2 sensor, temperature sensor;**  
-**Output: oxygen and water.**
+**Input:** CO2 sensor, temperature sensor; 
+**Output:** oxygen and water.
 
 #### Idea 4
 At this time we are interested in human breathing, which we see as the emotional embodiment of silence. In life we rarely pay attention to breathing, but a person's breathing is a certain reflection of the state he/she is in. When two people breathe at the same rate, are they able to approach each other's state of being, perceive each other's thoughts, or even share the same mind?
