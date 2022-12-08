@@ -46,8 +46,8 @@ However, the idea was abandoned in view of the difficulty of distinguishing whet
 
 #### Idea 3
 During the discussion, we thought that the relationship between two people was something to think about and would also bring more variation to the piece. It occurred to us that the breath and temperature of two people could be shared to feed a plant, but considering that the change in the plant might not be obvious, we gave up this idea
-**Input: CO2 sensor, temperature sensor; **  
-**Output : oxygen and water.**
+**Input:** CO2 sensor, temperature sensor;   
+**Output:** oxygen and water.
 
 #### Idea 4
 At this time we are interested in human breathing, which we see as the emotional embodiment of silence. In life we rarely pay attention to breathing, but a person's breathing is a certain reflection of the state he/she is in. When two people breathe at the same rate, are they able to approach each other's state of being, perceive each other's thoughts, or even share the same mind?
@@ -56,7 +56,7 @@ We came up with Marina Abramović's The Artist Is Present: March - May 2010, a w
 We hoped that the work would encourage the participants to breathe in the same frequency, so we intended to set up a factor that would interfere when the pair did not breathe in the same frequency, and we came up with the idea of noise.
 
 #### Final Proposal - Breathe Like You
-(pdf link)
+[(ppt link)](https://docs.google.com/presentation/d/1omDfadEUTZ2S464tUnFpo7NIe_2jQXh4KxJjt8lTMqY/edit#slide=id.g17d7db4cf54_3_0)
 We decided to build a device that uses barometric and infrared sensors to calculate the participants' breathing rate and reflect it in the brightness of the lamp. The greater the difference between their breathing rates, the stronger the sound of the noise from the DC motor vibrations, prompting the pair to approach each other's breathing rates. The noise disappears when the pair breathes at the same frequency.  
 （草图和电路图）
   
@@ -74,7 +74,7 @@ We soldered the existing sensors after the delivery arrived.
 <img width="380" alt="image" src="https://user-images.githubusercontent.com/119874724/206529906-434ef63d-ec5f-4d73-9366-e96a2e5425f7.png">
 
 When writing the code we found that each BMP180 needed a separate I2C code bus. We could not simply connect two sensors at the same time or switch between them, as that would block the I2C bus. It also has only one, unchangeable address.
-After doing some research, we found that we could connect multiple BMP280s on the Arduino Uno via SPI, so we placed a new order for the BMP280.  
+After doing some research📒, we found that we could connect multiple BMP280s on the Arduino Uno via SPI, so we placed a new order for the BMP280.  
 At this point, the code was initially completed.  
 ```
  if(cnt >= 10000)
@@ -150,7 +150,7 @@ Serial.println(pressureB);
 ```
 
 After deciding on the sensors to use, we tested the code.   
-The two inputs and the light were recognised, but neither of them worked consistently. After careful error checking we were still unable to solve the problem, so we made an appointment for a tutorial next Monday.  
+The two inputs and the light were recognised, but neither of them worked consistently. After careful error checking we were still unable to solve the problem👀, so we made an appointment for a tutorial next Monday.  
   
   
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/119874724/206557988-491b67c7-1d78-4718-9412-258f956118e5.png">
@@ -203,7 +203,7 @@ else if(cnt < 3)
 }
 ```
   
-We were going to solder the wires to the cavity board. As our two RIP sensors and two sound sensors need to be glued to the speaker of the shelf, we need to leave about 2m of wire connected to the arduino. And since each sensor has three connections, we soldered twelve 2m wires and planned to continue soldering the rest tomorrow.  
+We were going to solder the wires to the cavity board. As our two PIR sensors and two sound sensors need to be glued to the speaker of the shelf, we need to leave about 2m of wire connected to the arduino. And since each sensor has three connections, we soldered twelve 2m wires and planned to continue soldering the rest tomorrow.  
   
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/119874724/206561106-5f91ef75-0f48-4e53-b806-3ff87a9cabd3.png">
 
@@ -211,7 +211,7 @@ We were going to solder the wires to the cavity board. As our two RIP sensors an
 We started printing the second horn and it failed about 5 times.  
   
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/119874724/206561504-00addab1-6be0-4821-b655-2975cf217aba.png">
-We soldered all the wires, but the arduino indicator did not light up when connected to the arduino. After modifying the soldering method, the code could be uploaded and run, but only one RIP sensor worked properly. So we sorted through the wires again and found that some of the wires were soldered incorrectly.  
+We soldered all the wires, but the arduino indicator did not light up when connected to the arduino. After modifying the soldering method, the code could be uploaded and run, but only one PIR sensor worked properly. So we sorted through the wires again and found that some of the wires were soldered incorrectly.  
   
 #### Thursday  
 When the horn was almost finished printing, the filament was used up, so we had another print failure. As there was no more black filament in the studio that we wanted, we decided to hold off on printing for the time being.  
