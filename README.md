@@ -1,5 +1,3 @@
-# Physical-Computing-Final-Project
-
 # Breathe Like You
 
 ## Contents
@@ -27,7 +25,7 @@ In the topic selection phase, we first sorted out the inputs and outputs that co
 **Input:** temperature, distance, light sensitivity, pressure, infrared thermography, buttons, time data, etc.  
 **Output:** changes in lights, object movement and rotation, changes in sound, visual screens, projection, etc.
 
-### Brain Storm 🧠
+### Brainstorm 🧠
 #### Idea 1: Curtains of Homeland -from Yutian
 As we have just come to live in London for a month or so, there is an eight hour jet lag between the UK and China. We thought about how we could use the installation to represent this distance in time and space from our family and friends. The idea was to use the time and light changes in China as input and transmit the data to London via the internet. And to create a curtain-like installation in London, where the arduino would control the oscillation of the cloth (using servos) and the lights based on the data from China. This breaks the 8-hour time difference and allows the audience to connect with their homeland on another level.
   
@@ -45,9 +43,9 @@ We are also very interested in feminist related topics. As the female voice is o
 However, the idea was abandoned in view of the difficulty of distinguishing whether the sound sensor was a female voice or not.
 
 #### Idea 3
-During the discussion, we thought that the relationship between two people was something to think about and would also bring more variation to the piece. It occurred to us that the breath and temperature of two people could be shared to feed a plant, but considering that the change in the plant might not be obvious, we gave up this idea
-**Input:** CO2 sensor, temperature sensor;   
-**Output:** oxygen and water.
+During the discussion, we thought that the relationship between two people was something to think about and would also bring more variation to the piece. It occurred to us that the breath and temperature of two people could be shared to feed a plant, but considering that the change in the plant might not be obvious, we gave up this idea.  
+**Input: CO2 sensor, temperature sensor;**  
+**Output: oxygen and water.**
 
 #### Idea 4
 At this time we are interested in human breathing, which we see as the emotional embodiment of silence. In life we rarely pay attention to breathing, but a person's breathing is a certain reflection of the state he/she is in. When two people breathe at the same rate, are they able to approach each other's state of being, perceive each other's thoughts, or even share the same mind?
@@ -56,11 +54,13 @@ We came up with Marina Abramović's The Artist Is Present: March - May 2010, a w
 We hoped that the work would encourage the participants to breathe in the same frequency, so we intended to set up a factor that would interfere when the pair did not breathe in the same frequency, and we came up with the idea of noise.
 
 #### Final Proposal - Breathe Like You
-[(ppt link)](https://docs.google.com/presentation/d/1omDfadEUTZ2S464tUnFpo7NIe_2jQXh4KxJjt8lTMqY/edit#slide=id.g17d7db4cf54_3_0)
+https://docs.google.com/presentation/d/1omDfadEUTZ2S464tUnFpo7NIe_2jQXh4KxJjt8lTMqY/edit#slide=id.g17d7db4cf54_3_0
 We decided to build a device that uses barometric and infrared sensors to calculate the participants' breathing rate and reflect it in the brightness of the lamp. The greater the difference between their breathing rates, the stronger the sound of the noise from the DC motor vibrations, prompting the pair to approach each other's breathing rates. The noise disappears when the pair breathes at the same frequency.  
-
   
-On 4 November we presented the proposal in class and Phoenix suggested that we test whether the air pressure sensor would work as we thought it would.![image]
+  
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/119874724/206567113-87605a9d-00c8-475e-b427-b40675dd6549.png">
+  
+On 4 November we presented the proposal in class and Phoenix suggested that we test whether the air pressure sensor would work as we thought it would.
 
 <h3 id="43">Week 6</h3>
 We bought two bmp180 air pressure sensors, two led rings, two PIR sensors from Amazon.  
@@ -73,8 +73,8 @@ We soldered the existing sensors after the delivery arrived.
   
 <img width="380" alt="image" src="https://user-images.githubusercontent.com/119874724/206529906-434ef63d-ec5f-4d73-9366-e96a2e5425f7.png">
 
-When writing the code we found that each BMP180 needed a separate I2C code bus. We could not simply connect two sensors at the same time or switch between them, as that would block the I2C bus. It also has only one, unchangeable address.
-After doing some research📒, we found that we could connect multiple BMP280s on the Arduino Uno via SPI, so we placed a new order for the BMP280.  
+When writing the code we found that each BMP180 needed a separate I2C code bus. We could not simply connect two sensors at the same time or switch between them, as that would block the I2C bus. It also has only one, unchangeable address.  
+After doing some research 📒, we found that we could connect multiple BMP280s on the Arduino Uno via SPI, so we placed a new order for the BMP280.  
 At this point, the code was initially completed.  
 ```
  if(cnt >= 10000)
@@ -150,7 +150,7 @@ Serial.println(pressureB);
 ```
 
 After deciding on the sensors to use, we tested the code.   
-The two inputs and the light were recognised, but neither of them worked consistently. After careful error checking we were still unable to solve the problem👀, so we made an appointment for a tutorial next Monday.  
+The two inputs and the light were recognised, but neither of them worked consistently. After careful error checking we were still unable to solve the problem 👀, so we made an appointment for a tutorial next Monday.  
   
   
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/119874724/206557988-491b67c7-1d78-4718-9412-258f956118e5.png">
@@ -269,7 +269,8 @@ On Wednesday we assembled the installation and shot a video showing the work.
 Done! Ta-da! 🥳🥳🥳  
   
   
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/119874724/206563996-57a0115f-334e-4733-be78-7d25742242d6.png">
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/119874724/206574874-f817ef95-e61b-493b-b3b3-09e3b5342ba8.png">
+
 
 <h2 id="48">Reference</h2>  
   1.https://www.thingiverse.com/  
