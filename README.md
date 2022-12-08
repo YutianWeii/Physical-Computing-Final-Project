@@ -16,7 +16,7 @@ Breathe Like You is an interactive art installation that reflects the relationsh
 
 We use two PIR sensors and two analogue sound sensors as inputs, two led rings and a speaker as outputs to help two people feel the state they are in when they breathe at the same frequency.
 
-📺 Here is a video of our project: https://youtu.be/TEn1UXd2_kI  
+📺 Here is a video of our project: https://www.youtube.com/watch?v=OAuP475TpXw
 
 <h2 id="41">Research Blog</h2>
 <h3 id="42">Week 5: Project Proposal</h3>
