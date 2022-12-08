@@ -58,7 +58,7 @@ We hoped that the work would encourage the participants to breathe in the same f
 #### Final Proposal - Breathe Like You
 [(ppt link)](https://docs.google.com/presentation/d/1omDfadEUTZ2S464tUnFpo7NIe_2jQXh4KxJjt8lTMqY/edit#slide=id.g17d7db4cf54_3_0)
 We decided to build a device that uses barometric and infrared sensors to calculate the participants' breathing rate and reflect it in the brightness of the lamp. The greater the difference between their breathing rates, the stronger the sound of the noise from the DC motor vibrations, prompting the pair to approach each other's breathing rates. The noise disappears when the pair breathes at the same frequency.  
-（草图和电路图）
+
   
 On 4 November we presented the proposal in class and Phoenix suggested that we test whether the air pressure sensor would work as we thought it would.![image]
 
