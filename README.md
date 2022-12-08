@@ -273,8 +273,8 @@ Done! Ta-da! 🥳🥳🥳
 
 
 <h2 id="48">Reference</h2>  
-  1.https://www.thingiverse.com/  
-    
+  1.https://www.thingiverse.com/ 
+  
   2.https://www.zimoun.net/  
     
   3.https://www.blog.berrybase.de/blog/2020/11/09/neopixel-ring-mit-arduino-ansteuern-so-wirds-gemacht/  
