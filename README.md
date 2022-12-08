@@ -18,7 +18,7 @@ Breathe Like You is an interactive art installation that reflects the relationsh
 
 We use two PIR sensors and two analogue sound sensors as inputs, two led rings and a speaker as outputs to help two people feel the state they are in when they breathe at the same frequency.
 
-Here is a video of our project: https://youtu.be/TEn1UXd2_kI  
+📺 Here is a video of our project: https://youtu.be/TEn1UXd2_kI  
 
 <h2 id="41">Research Blog</h2>
 <h3 id="42">Week 5: Project Proposal</h3>
@@ -27,7 +27,7 @@ In the topic selection phase, we first sorted out the inputs and outputs that co
 **Input:** temperature, distance, light sensitivity, pressure, infrared thermography, buttons, time data, etc.  
 **Output:** changes in lights, object movement and rotation, changes in sound, visual screens, projection, etc.
 
-### Brain Storm
+### Brain Storm 🧠
 #### Idea 1: Curtains of Homeland -from Yutian
 As we have just come to live in London for a month or so, there is an eight hour jet lag between the UK and China. We thought about how we could use the installation to represent this distance in time and space from our family and friends. The idea was to use the time and light changes in China as input and transmit the data to London via the internet. And to create a curtain-like installation in London, where the arduino would control the oscillation of the cloth (using servos) and the lights based on the data from China. This breaks the 8-hour time difference and allows the audience to connect with their homeland on another level.
   
